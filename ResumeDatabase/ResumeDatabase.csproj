@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icons8-документ-64.png" />
+    <None Remove="icons8-портфель-64.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons8-документ-64.png" />
+    <Resource Include="icons8-портфель-64.png" />
+  </ItemGroup>
+
+</Project>
